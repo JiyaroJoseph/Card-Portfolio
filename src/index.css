@@ -1,0 +1,42 @@
+body{
+  background-color: black;
+}
+
+
+.card{
+  border: 1px solid #000000;                                  /* BORDER-WIDTH, STYLE, COLOR */
+  border-radius: 0px;
+  box-shadow: 10px 10px 4px hsla(0, 1%, 58%, 0.1);            /* HORIZONTAL, VERTICAL OFFSETS FOR SHADOW,
+                                                                  OPACITY, COLOR */
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  width: 350px;
+  display: inline-block;
+}
+
+
+.card:hover{
+  box-shadow: 10px 10px 10px hsl(0, 0%, 100%);      
+}
+
+
+.image{
+  height: 410px;
+  width: 310px;
+  object-fit: fit;
+  border: none;
+}
+
+
+.name{
+  font-size: 30px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+
+.info{
+  font-size: 22px;
+  color: #ffffff;
+}
